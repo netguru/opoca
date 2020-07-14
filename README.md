@@ -62,9 +62,8 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 ## Contributors
 
 Thanks to the following people who have contributed to this project:
-
-* [@plazowicz](https://github.com/plazowicz) 📖
-* [@pedrito87](https://github.com/pedrito87) 🐛
+* [@plazowicz](https://github.com/plazowicz)
+* [@pedrito87](https://github.com/pedrito87)
 * [@mjmikulski](https://github.com/mjmikulski)
 * [@AdrianMaciej](https://github.com/AdrianMaciej)
 * [@dkosowski87](https://github.com/dkosowski87)
