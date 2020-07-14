@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "opoca"
+version = "0.1.0"
+description = "Opoca library aims to drastically speed up producing proof of concepts (PoC) for machine learning projects."
+authors = ["Apollo Team <ml-team@netguru.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+python-dotenv = "^0.13.0"
+click = "^7.1.2"
+Cython = "^0.29.20"
+numpy = "^1.19.0"
+pandas = "^1.0.5"
+scikit-learn = "^0.23.1"
+scipy = "^1.5.0"
+matplotlib = "^3.2.2"
+pandas-profiling = "^2.8.0"
+seaborn = "^0.10.1"
+tqdm = "^4.46.1"
+xgboost = "^1.1.1"
+urllib3 = "1.24.3"
+quilt3 = "^3.1.14"
+horology = "^1.1.0"
+python-dateutil = "2.8.0"
+MonthDelta = "^0.9.1"
+kubernetes = "^11.0.0"
+joblib = "^0.15.1"
+pyarrow = "^0.17.1"
+google-cloud-storage = "^1.29.0"
+imbalanced-learn = "^0.7.0"
+optuna = "^1.5.0"
+plotly = "^4.8.1"
+scikit-optimize = "^0.7.4"
+category_encoders = "^2.2.2"
+simple-salesforce = "^1.1.0"
+mlflow = "^1.9.1"
+dynaconf = "^2.2.3"
+ipython = "^7.16.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+pytest-cases = "^1.17.0"
+Sphinx = "^3.1.1"
+flake8 = "^3.8.3"
+pylint = "^2.5.3"
+coverage = "^5.1"
+autopep8 = "^1.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
