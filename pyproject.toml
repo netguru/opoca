@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Opoca library aims to drastically speed up producing proof of concepts (PoC) for machine learning projects."
 authors = ["Apollo Team <ml-team@netguru.com>"]
 license = "Apache-2.0"
+readme = "README.md"
+keywords = ["machine learning", "deep learning", "ai", "poc", "fast development"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
