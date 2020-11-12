@@ -24,7 +24,7 @@ cmd2==1.1.0
 colorama==0.4.3
 colorlog==4.1.0
 confuse==1.2.0
-cryptography==2.9.2
+cryptography==3.2.1
 cycler==0.10.0
 cython==0.29.20
 databricks-cli==0.11.0
