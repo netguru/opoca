@@ -13,10 +13,13 @@
 # limitations under the License.
 
 
+import pytest
+
 from opoca.data.handler import DataHandler
 from opoca.data.splitter import ProportionalTimeSplitter, CutOffDateSplitter
 
 
+@pytest.mark.xfail(reason="Quilt is not available. This will be fixed with MLBM-130")
 def test_proportional_time_splitter():
     data_handler = DataHandler('room_occupancy', 'clean')
     dataset_full = data_handler.load(return_as='dataset')
@@ -34,6 +37,7 @@ def test_proportional_time_splitter():
         assert split.val.x.index.max() < split.test.x.index.min(), 'Overlapping val and test.'
 
 
+@pytest.mark.xfail(reason="Quilt is not available. This will be fixed with MLBM-130")
 def test_loading_time_split():
     data_handler = DataHandler('room_occupancy', 'split')
     split = data_handler.load(return_as='split')
@@ -46,6 +50,7 @@ def test_loading_time_split():
     assert split.val.x.index.max() < split.test.x.index.min(), 'Overlapping val and test.'
 
 
+@pytest.mark.xfail(reason="Quilt is not available. This will be fixed with MLBM-130")
 def test_cut_off_date_splitter():
     train_cutoff_date = '2015-02-08 09:00:05'
     val_cutoff_date = '2015-02-09 09:00:00'
