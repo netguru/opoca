@@ -76,7 +76,7 @@ mako==1.1.3
 markupsafe==1.1.1
 matplotlib==3.2.2
 missingno==0.4.2
-mistune==0.8.4
+mistune==2.0.3
 mlflow==1.9.1
 monthdelta==0.9.1
 msrest==0.6.17
