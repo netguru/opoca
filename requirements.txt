@@ -72,7 +72,7 @@ jupyter-core==4.6.3
 kiwisolver==1.2.0
 kubernetes==11.0.0
 llvmlite==0.33.0
-mako==1.1.3
+mako==1.2.2
 markupsafe==1.1.1
 matplotlib==3.2.2
 missingno==0.4.2
